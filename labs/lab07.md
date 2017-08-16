@@ -37,7 +37,7 @@ The **```printKeysInOrder```** method should do an in-order traversal,
 printing each key using **```std::cout```**.  Print all of the keys on a single line.
 
 The **```find```** method should find the node containing the key equal to the parameter, **```searchKey```**.  It 
-should return **```NULL```** if there is no node containing the search key.
+should return **```nullptr```** if there is no node containing the search key.
 
 When you run the program, it will create a random binary search tree, print its keys (using **```printKeysInOrder```**), 
 and then allow the user to search for specified keys.

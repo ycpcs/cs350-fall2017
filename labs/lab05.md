@@ -43,7 +43,7 @@ The **```Node```** type, in its simplest form, is defined as follows:
 ```cpp
 class Node {
 public:
-    Node(int v) : value(v), next(NULL) { }
+    Node(int v) : value(v), next(nullptr) { }
     int value;
     Node *next;
 };
@@ -93,7 +93,7 @@ Here are your values:
 node in the list.
 
 Think about how the empty list should be represented.  Setting
-both **```head```** and **```tail```** to **```NULL```** when the list is empty is the most straightforward approach.
+both **```head```** and **```tail```** to **```nullptr```** when the list is empty is the most straightforward approach.
 
 To traverse the list in order to print the values, use a **```Node```**\* variable as the loop variable.  On the first
 iteration of the loop, the variable should point to the first node in the list.  At the end of each iteration of the
