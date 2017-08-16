@@ -56,8 +56,8 @@ The class declaration is
 		
 		// (Private) utility methods
 		bool isEmpty();
-		int leftIndex(int idx);
-		int rightIndex(int idx);
+		int leftChildIndex(int idx);
+		int rightChildIndex(int idx);
 		int parentIndex(int idx);
 		void percolateUp(int idx);
 		void percolateDown(int idx);
@@ -145,28 +145,28 @@ new array.
 
 <br>
 
-### 5. LeftIndex() / RightIndex() / ParentIndex()
+### 5. LeftChildIndex() / RightChildIndex() / ParentIndex()
 
 --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
 
-Since we are representing the heap using an array, the indices for the left/right/parent nodes for a given node are 
-simple computations. Recall from class that:
+Since we are representing the heap using an array, the indices for the left child, right child, and parent nodes for a given node 
+are simple computations. Recall from class that:
 
 ```cpp
-left(i) = 2*i
+leftChild(i) = 2*i
 	
-right(i) = 2*i + 1
+rightChild(i) = 2*i + 1
 	
 parent(i) = i/2
 ```
 
 **Tasks**
 
-  - Add code to the **```leftIndex()```** method that takes an **```int```** parameter for the index of an input node 
+  - Add code to the **```leftChildIndex()```** method that takes an **```int```** parameter for the index of an input node 
   and returns an **```int```** for the index of the left child of the input node. You may assume that the parameter 
   represents a valid index value in the heap.
 
-  - Add code to the **```rightIndex()```** method that takes an **```int```** parameter for the index of an input node 
+  - Add code to the **```rightChildIndex()```** method that takes an **```int```** parameter for the index of an input node 
   and returns an **```int```** for the index of the right child of the input node. You may assume that the parameter 
   represents a valid index value in the heap.
 
@@ -334,8 +334,8 @@ Fix any memory leaks that are detected.
 * isEmpty() - **2 points**
 * makeEmpty() - **2 points**
 * resizeArray() - **5 points**
-* leftIndex() - **2 points**
-* rightIndex() - **2 points**
+* leftChildIndex() - **2 points**
+* rightChildIndex() - **2 points**
 * parentIndex() - **2 points**
 * minChild() - **5 points**
 * insert() - **10 points**
