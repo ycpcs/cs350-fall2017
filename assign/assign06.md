@@ -121,14 +121,11 @@ A private method which simply returns a boolean indicating whether or not the cu
 
 --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
 
-The find operation can be implemented in an iterative fashion identically to a generic binary search tree. Thus as long as the bottom of the tree or the desired value is not found continue traversing down the tree. If the desired value is less than the current node's value then follow the left child, otherwise follow the right child.
+The find operation can be implemented in an iterative fashion identically to a generic binary search tree. Thus as long 
+as the bottom of the tree or the desired value is not found continue traversing down the tree. If the desired value is 
+less than the current node's value then follow the left child, otherwise follow the right child.
 
 **Tasks**
-
-  - Add a method named **```find()```** that returns a **```bool```** (do not forget to qualify it with the class name) 
-  that takes a single **```const```** reference to a **```T```** object parameter and determines if the value is in the 
-  tree. Hint: Consider using the **```findNode()```** method passing the **```root```** as an argument. Also, consider 
-  the return value of **```findNode()```** if the desired value is not found in the tree.
 
   - Add a method named **```findNode()```** (do not forget to qualify it with the class name) that takes a *pointer* 
   to a **```Node```** indicating the starting node for the search and a single **```const```** reference to 
@@ -145,6 +142,11 @@ FIND-NODE-ITERATIVE(n, k)
 6  return n
 ```
 
+  - Add a method named **```find()```** that returns a **```bool```** (do not forget to qualify it with the class name) 
+  that takes a single **```const```** reference to a **```T```** object parameter and determines if the value is in the 
+  tree. Hint: Consider using the **```findNode()```** method passing the **```root```** as an argument. Also, consider 
+  the return value of **```findNode()```** if the desired value is not found in the tree.
+
 
 
 <br>
@@ -159,21 +161,22 @@ binary search tree invariants.
 
 **Tasks**
 
-  - Add a method named **```findMin()```** that returns a **```const```** reference to a **```T```** object indicating 
-  the minimum value or simply returning -1 if there is none (do not forget to qualify it with the class name) and takes 
-  no parameters. Hint: Consider using the **```findMinNode()```** method passing the **```root```** as an argument. 
-
   - Add a method named **```findMinNode()```** (do not forget to qualify it with the class name) that takes a *pointer* 
   to a **```Node```** as a parameter for the starting point and returns a *pointer* to a **```Node```** that contains 
-  the minimum value. Pseudocode for this *iterative* routine is given below.  Note that you will want to modify/add to 
-  the pseudocode as necsesary to deal with the case when the tree is empty.
-
+  the minimum value. Pseudocode for this *iterative* routine is given below.  Note that the method will return 
+  **```bottomNode```** when the tree is empty.
+  
 ```
 FIND-MINIMUM-NODE-ITERATIVE(n)
 1  while n.left != bottomNode
 2     n = n.left
 3  return n
 ```
+    
+  - Add a method named **```findMin()```** (do not forget to qualify it with the class name) that returns a 
+  **```const```** reference to a **```T```** object indicating the minimum value or simply returns -1 if there is 
+  none and takes no parameters. Hint: Consider using the **```findMinNode()```** method passing the **```root```** as 
+  an argument. 
 
 
 
@@ -189,21 +192,22 @@ binary search tree invariants.
 
 **Tasks**
 
-  - Add a method named **```findMax()```** that returns a **```const```** reference to a **```T```** object indicating 
-  the maximum value or simply returning -1 if there is none (do not forget to qualify it with the class name) and takes 
-  no parameters. Hint: Consider using the **```findMaxNode()```** method passing the **```root```** as an argument. 
-
   - Add a method named **```findMaxNode()```** (do not forget to qualify it with the class name) that takes a *pointer* 
   to a **```Node```** as a parameter for the starting point and returns a *pointer* to a **```Node```** that contains 
-  the maximum value. Pseudocode for this *iterative* routine is given below. Note that you will want to modify/add to 
-  the pseudocode as necsesary to deal with the case when the tree is empty.
-
+  the maximum value. Pseudocode for this *iterative* routine is given below. Note that the method will return 
+  **```bottomNode```** when the tree is empty.
+  
 ```
 FIND-MAXIMUM-NODE-ITERATIVE(n)
 1  while n.right != bottomNode
 2     n = n.right
 3  return n
 ```
+
+  - Add a method named **```findMax()```** (do not forget to qualify it with the class name) that returns a 
+  **```const```** reference to a **```T```** object indicating the maximum value or simply returns -1 if there is 
+  none and takes no parameters. Hint: Consider using the **```findMaxNode()```** method passing the **```root```** as 
+  an argument. 
 
 
 
