@@ -68,7 +68,7 @@ The class declaration is
 	};
 ```
 
-**NOTE:** Use **NULL** for any null pointers.
+**NOTE:** Use **nullptr** for any null pointers.
 
 
 
@@ -214,7 +214,7 @@ FIND-MAXIMUM-NODE(n)
 --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
 
 To insert a value into a binary search tree (assuming it does not exist), which must occur at a leaf, a recursive 
-procedure similar to search is performed until a **```NULL```** child is reached. Then the respective child pointers 
+procedure similar to search is performed until a **```nullptr```** child is reached. Then the respective child pointers 
 are assigned as the recursion unrolls.
 
 **Tasks**
@@ -251,7 +251,7 @@ simply starts at the node's *right child* and continually follows the left branc
 **```FindParentOf()```**
 
 Finding the parent node for a given value involves a similar process as searching except that the search terminates when 
-one of the *child* nodes of the current node contains the desired value (or both children are **```NULL```** indicating 
+one of the *child* nodes of the current node contains the desired value (or both children are **```nullptr```** indicating 
 the value is not in the tree).
 
 **Tasks**
@@ -265,7 +265,7 @@ the value is not in the tree).
   a **```const```** reference to a **```T```** object as a parameter and returns a *pointer* to a **```Node```** which 
   is the *parent* of the node containing the parameter value. Write the method such that it begins at the **```root```** 
   and performs an *iterative* search until the *child* of the current node contains the desired value (at which point 
-  the current node is the *parent*).  Since the **```root```** node has no parent, return **```NULL```** when its parent
+  the current node is the *parent*).  Since the **```root```** node has no parent, return **```nullptr```** when its parent
   is requested.
 
 

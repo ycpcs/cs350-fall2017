@@ -8,7 +8,7 @@ title: "Assignment 8: Hash Table"
 <br>
 
 This lab will implement a hash table that stores *string* objects (without using class templates) using chaining to 
-resolve collisions with the end of each chain indicated by **```NULL```**. Thus the hash table will store **```Node```** 
+resolve collisions with the end of each chain indicated by **```nullptr```**. Thus the hash table will store **```Node```** 
 objects that contain the string value in a **```data```** field and a **```next```** pointer to the next **```Node```** 
 in the list. The hash table size will be fixed upon instantiation of the table and the hashing function method 
 **```hash()```** has been provided.
@@ -78,7 +78,7 @@ and then deallocate the table array.
 **Tasks**
 
   - Add code to **```HashTable()```** to dynamically allocate an array of **```Node*```** elements based on 
-  the **```tableSize```** parameter. Hint: Be sure to initialize the elements of the array to **```NULL```** and 
+  the **```tableSize```** parameter. Hint: Be sure to initialize the elements of the array to **```nullptr```** and 
   initialize the **```size```** field in the class to maintain the size of the table. 
 
   - Add code to **```~HashTable()```** to iterate through the entire hash table to deallocate all the nodes in each 
@@ -101,7 +101,7 @@ value at the *head* of the list at that index (for efficiency).
   You will need to dynamically allocate a **```Node```** for this value and add it to the *head* of the hash table 
   at the appropriate index *IF* the string is not currently in the table, i.e. duplicates are not allowed. Note: Use 
   the **```hash()```** method to compute the hash value for the string. When inserting the first node at a given hash 
-  slot, it should go directly into the hash table (replacing the initial **```NULL```** in that slot) with subsequent 
+  slot, it should go directly into the hash table (replacing the initial **```nullptr```** in that slot) with subsequent 
   inserts at the same location added via chaining at the *beginning* of the list.
 
 
