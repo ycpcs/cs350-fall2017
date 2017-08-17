@@ -208,12 +208,12 @@ You will implement the **```build```** method.
 
 The following rules should be used to build random expression trees.
 
-1. Trees must have no more than **```MAX_LEVEL```** levels.
+1. Trees must have a depth of no more than **```MAX_DEPTH```**.
 The leaves of the tree are nodes representing *x* and *y*
 expressions (with equal probability).  All nodes added at
-level **```MAX_LEVEL```** of the tree **must** be *x* or *y* nodes.
+**```MAX_DEPTH```** of the tree **must** be *x* or *y* nodes.
 
-2. For nodes at levels of the tree less than **```MAX_LEVEL```**, the following probabilities should be used to 
+2. For nodes at a depth of less than **```MAX_DEPTH```**, the following probabilities should be used to 
 determine what kind of node to create:
     - 10% chance of creating an *x* node
     - 10% chance of creating a *y* node
