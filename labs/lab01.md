@@ -46,7 +46,12 @@ private:
 ```
 
 The idea is that a **```Histogram```** object counts the number of occurrences of events, where each event is identified 
-by an integer *bucket*.  The **```numBuckets```** parameter to the constructor specifies how many buckets the 
+by an integer *bucket*.  A bucket is represented as a single index of an array. Each time an event associated with a 
+particular bucket occurs, the corresponding array index is incremented.
+
+The pointer **```m_counts```** should be set to point to the array of buckets. You will need to create this array in
+the constructor of your **```Histogram.cpp```** file.
+The **```numBuckets```** parameter to the constructor specifies how many buckets the 
 **```Histogram```** object will have.  The first bucket has index 0, the second has index 1, etc.
 
 You will need to add implementations for the constructor, destructor, **```increaseCount```**, and **```getCount```** 
