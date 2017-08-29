@@ -22,3 +22,7 @@ This page contains links to useful resources.
  
  - [CentOS 7 (1511)](http://archive.kernel.org/centos-vault/7.2.1511/isos/x86_64/CentOS-7-x86_64-DVD-1511.iso) 
  <br>**Be sure to Install** "Development Tools" **during install**
+ <br>If you forget to install development tools, type the following in the terminal:
+ <br>```sudo yum groupinstall 'Development Tools'```
+ <br> You may also need to install ```clang```, type the following in the terminal:
+ <br>```sudo yum install clang```
