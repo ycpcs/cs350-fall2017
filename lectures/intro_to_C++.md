@@ -87,7 +87,7 @@ private:
     int quarters;
         
 public:
-    // Constructor
+    // Constructor (this constructor can be used 5 different ways)
     Coins(int p=0, int n=0, int d=0, int q=0):
         pennies(p),nickels(n),dimes(d),quarters(q){};
         
@@ -103,9 +103,10 @@ public:
 
     
 <br>
-Note that only a single constructor is necessary as the equivalent Java no parameter constructor simply uses all the 
-default parameter values. Also rather than each member variable and method's visibility needing to be individually 
-specified, C++ visibility can be specified in blocks.
+Note that only a single constructor is necessary to get the same behavior as two constructors in Java.
+If no parameters are passed to the constructor, it simply uses all the default parameter values. 
+Also rather than each member variable and method's visibility needing to be individually specified, C++ 
+visibility can be specified in blocks.
 
 The implementation for the methods (in **```Coins.cpp```**) would be
 
