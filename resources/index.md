@@ -20,5 +20,5 @@ This page contains links to useful resources.
  
  - [VMWare Player (free)](https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_workstation_player/12_0)
  
- - [CentOS 7 (1511)](http://vault.centos.org/7.2.1511/isos/x86_64/CentOS-7-x86_64-DVD-1511.iso) 
+ - [CentOS 7 (1511)](http://archive.kernel.org/centos-vault/7.2.1511/isos/x86_64/CentOS-7-x86_64-DVD-1511.iso) 
  <br>**Be sure to Install** "Development Tools" **during install**
