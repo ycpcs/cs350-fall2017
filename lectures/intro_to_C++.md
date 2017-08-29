@@ -179,6 +179,12 @@ int *a = new int[size];
     
 where the integer array **```a```** is dynamically allocated with **```size```** elements.
 
+Accessing array elements is done exactly as you would expect
+```cpp
+int valueAtIndexZero = a[0];
+a[1] = newValueForIndexOne;
+```
+
 To free a dynamically allocated array, simply specify that the **```delete```** operator is freeing an array as
 
 ```cpp
