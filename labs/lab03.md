@@ -37,7 +37,9 @@ will have a copy constructor and assignment operator.
 The copy constructor should initialize the **```Histogram```** object so that it is an exact copy of the 
 **```Histogram```** passed as the **```const```** reference parameter **```other```**.  That is, the copy
 constructor is creating a **new** instantiation of a **```Histogram```** object and initializing that new
-**```Histogram```** object with the same contents as the **```other```** **```Histogram```**.
+**```Histogram```** object with the same contents as the **```other```** **```Histogram```**. Your copy
+constructor will look a lot like your standard constructor. However, your copy constuctor is getting all the 
+information it needs to initialize the new **```Histogram```** object from the incoming existing **```Histogram```** object.
 
 The assignment operator should modify the **```Histogram```** object so that it becomes an exact copy of the 
 **```Histogram```** passed as the **```const```** reference parameter **```rhs```**.  That is, the assignment
