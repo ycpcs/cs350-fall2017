@@ -87,6 +87,11 @@ Additionally, parameters can be qualified with **```const```** to protect them f
 Furthermore, we can specify that a method itself is constant, i.e. the method cannot change any class fields, by adding 
 **```const```** to the end of the method declaration, e.g. **```get()```** in the above class.
 
+Adding the **```const```** keyword to the return type ensures that the return value must get assigned to a **```const```**
+variable at the point of call.  Any attempt to modify the returned object at the point of call will result in an error.
+This is particularly useful for data structures since external modifications to a data structure can damage data 
+structure invariants.  
+
 The implementation for the methods (in **```ArrayList.cpp```**) would be
 
 
