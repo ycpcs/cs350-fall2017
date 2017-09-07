@@ -6,6 +6,8 @@ title: Resources
 
 This page contains links to useful resources.
 
+ - [Linux Sign-in](linux_sign_in.pdf)
+
  - [IntelliJ Free Student License](https://www.jetbrains.com/student/)
 
  - Online Course Textbook: [Open Data Structures](http://opendatastructures.org)
