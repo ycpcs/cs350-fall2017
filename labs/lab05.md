@@ -165,8 +165,9 @@ similar to iterating forward, except
 For the third milestone:
 
 * get rid of the **```tail```** pointer
-* use a single dummy (sentinel) node
+* use a single dummy (sentinel) node (create it a value of 0)
 * implement a circular doubly-linked list
+* initially, the sentinel node should point back to itself
 
 This is the doubly-linked list representation that you will use in [Assignment 2](../assign/assign02.html).
 
