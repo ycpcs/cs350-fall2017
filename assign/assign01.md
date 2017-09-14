@@ -148,7 +148,8 @@ determine when to contract the array:
   element.  Make sure the stack is not empty before attempting to retrieve the top element.  If the stack is empty, then 
   return **```-1```**.  Since you are dynamically allocating array space, do not forget to check if the *new* stack size 
   is less than *one-third* of the backing array capacity, *halving* the capacity of the backing array if necessary via the 
-  **```resize()```** method.
+  **```resize()```** method.  Be careful that you don't halve your capacity if you only have a capacity of 1 ... if you 
+  do, you'll end up with a capacity of 0!
 
 
 
