@@ -83,10 +83,6 @@ sentinel (i.e. dummy) node.
   should be the predecessor of the dummy node
   - when the list is empty, the **```prev```** and **```next```** fields of the dummy node should point to itself.
 
-Figure (c) in the following web textbook shows examples of non-empty
-and empty circular doubly-linked lists with a sentinel node: 
-
-[http://www.brpreiss.com/books/opus5/html/page165.html](http://www.brpreiss.com/books/opus5/html/page165.html)
 
 **Tasks**
 
