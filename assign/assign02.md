@@ -85,7 +85,7 @@ sentinel (i.e. dummy) node.
 
 The figure below shows examples of non-empty and empty circular doubly-linked lists with a sentinel node:
  
-![image](images/assign02/cicular_dll.png)
+![image](images/assign02/circular_dll.png)
 
 
 **Tasks**
