@@ -7,9 +7,10 @@ title: Data Structures
 
 ## Activities
 
-<!--  * [Stacks & Queues](./activities/Stacks & Queues.pdf) -->
-<!--  * [Skiplist Find](./activities/Skiplist Find.pdf) -->
-<!--  * [Skiplist Insert](./activities/Skiplist Insert.pdf) -->
+  * [Stacks & Queues](./activities/1 - Stacks & Queues.pdf)
+  * [Skiplist Find](./activities/2 - Skiplist Find.pdf)
+  * [Skiplist Insert](./activities/3 - Skiplist Insert.pdf)
+  
 <!--  * [BST Remove](./activities/BST Remove.pdf) -->
 <!--  * [AVL Trees Insert](./activities/AVL Trees Insert.pdf) -->
 <!--  * [AVL Trees Remove](./activities/AVL Trees Remove.pdf) -->
