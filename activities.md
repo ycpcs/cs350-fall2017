@@ -9,13 +9,13 @@ title: Data Structures
 
   * [Stacks & Queues](./activities/1 - Stacks & Queues.pdf)
   * [Skiplist Find](./activities/2 - Skiplist Find.pdf)
-  * [Skiplist Insert](./activities/3 - Skiplist Insert.pdf)
-  
-<!--  * [BST Remove](./activities/BST Remove.pdf) -->
-<!--  * [AVL Trees Insert](./activities/AVL Trees Insert.pdf) -->
-<!--  * [AVL Trees Remove](./activities/AVL Trees Remove.pdf) -->
-<!--  * [Red-Black Trees Insert](activities/Red-Black Trees Insert.pdf) --> 
-<!--  * [Red-Black Trees Insert 2](activities/Red-Black Trees Insert 2.pdf) -->
+  * [Skiplist Insert](./activities/3 - Skiplist Insert.pdf)  
+  * [BST Remove](./activities/4 - BST Remove.pdf)
+  * [AVL Trees Insert](./activities/5 - AVL Trees Insert.pdf)
+  * [AVL Trees Remove](./activities/6 - AVL Trees Remove.pdf)
+  * [Red-Black Trees Insert](activities/7 - Red-Black Trees Insert.pdf) 
+  * [Red-Black Trees Insert 2](activities/8 - Red-Black Trees Insert 2.pdf)
+
 <!--  * [AA Trees 1](activities/AA Trees.pdf) -->
 <!--  * [AA Trees 2](activities/AA Trees 2.pdf) -->
 <!--  * [B Trees](activities/B-Trees.pdf) -->
