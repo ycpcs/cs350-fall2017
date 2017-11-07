@@ -230,7 +230,7 @@ called at each parent node.  Do not allow insertion of duplicate values -- simpl
 
   - Add a method named **```insertNode()```** (do not forget to qualify it with the class name) that takes a *reference 
   to a pointer* to a **```Node```** for the starting point and a **```const```** reference to a **```T```** object as 
-  parameters and returns a *pointer* to the newly inserted **```Node```**. Use the pseudocode from Andersson's paper as 
+  parameters. Use the pseudocode from Andersson's paper as 
   a reference for this routine.  You can ignore the **```ok```** variable in Andersson's pseudocode.  If the value to 
   be inserted already exists in the tree (i.e. line 16 of Andersson's **```Insert```** pseudocode), do nothing.
 
