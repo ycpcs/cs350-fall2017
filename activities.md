@@ -15,10 +15,10 @@ title: Data Structures
   * [AVL Trees Remove](./activities/6 - AVL Trees Remove.pdf)
   * [Red-Black Trees Insert](activities/7 - Red-Black Trees Insert.pdf) 
   * [Red-Black Trees Insert 2](activities/8 - Red-Black Trees Insert 2.pdf)
+  * [AA Trees 1](activities/9 - AA Trees.pdf)
+  * [AA Trees 2](activities/10 - AA Trees 2.pdf)
+  * [B Trees](activities/11 - B-Trees.pdf)
 
-<!--  * [AA Trees 1](activities/AA Trees.pdf) -->
-<!--  * [AA Trees 2](activities/AA Trees 2.pdf) -->
-<!--  * [B Trees](activities/B-Trees.pdf) -->
 <!--  * [Binary Heaps](activities/Binary Heaps.pdf) -->
 <!--  * [Hash Tables](activities/Hash Tables.pdf) -->
 <!--  * [Graphs](activities/Graphs Adjacency Matrix and List.pdf) -->
