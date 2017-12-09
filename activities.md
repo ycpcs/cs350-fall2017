@@ -18,7 +18,6 @@ title: Data Structures
   * [AA Trees 1](activities/9 - AA Trees.pdf)
   * [AA Trees 2](activities/10 - AA Trees 2.pdf)
   * [B Trees](activities/11 - B-Trees.pdf)
-
-<!--  * [Binary Heaps](activities/Binary Heaps.pdf) -->
-<!--  * [Hash Tables](activities/Hash Tables.pdf) -->
-<!--  * [Graphs](activities/Graphs Adjacency Matrix and List.pdf) -->
+  * [Binary Heaps](activities/12 - Binary Heaps.pdf)
+  * [Hash Tables](activities/13 - Hash Tables.pdf)
+  * [Graphs](activities/14 - Graphs Adjacency Matrix and List.pdf)
